@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ReinforcementGames.cpp">
+    <ClCompile Include="Gridworld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnwrappedPolicyImprovement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -8,7 +8,7 @@
 
 constexpr int width = 5;
 constexpr int height = 5;
-constexpr int numberEpisodes = 1000;
+constexpr int numberEpisodes = 10000;
 constexpr int numberStates = width * height;
 constexpr int numberTicks = 5;
 constexpr int numberActions = 4;
@@ -63,14 +63,14 @@ int main()
                 }
             }
 
-            if (prevState == 6)
+            if (prevState == 1)
             {
-                currentState = 16;
+                currentState = 21;
                 reward = 10.0;
             }
-            else if (prevState == 8)
+            else if (prevState == 3)
             {
-                currentState = 18;
+                currentState = 13;
                 reward = 5.0;
             }
             else
