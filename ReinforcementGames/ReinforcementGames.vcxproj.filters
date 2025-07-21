@@ -21,5 +21,8 @@
     <ClCompile Include="UnwrappedPolicyImprovement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="UnwrappedPolicyIteration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
