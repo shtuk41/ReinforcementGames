@@ -27,5 +27,11 @@
     <ClCompile Include="JackCarRental.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="JackCarRentalValueIteration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
