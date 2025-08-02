@@ -5,10 +5,11 @@
 class game
 {
 private:
-	bool training;
 	deck gameDeck;
+	bool printDebug;
 
 public:
-	game(deck& deck, bool training = false);
+	game(deck& deck, bool debug);
 	void play(std::vector<State> &episode);
+	reward play(double value[11][10][2]);
 };

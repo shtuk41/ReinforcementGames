@@ -18,12 +18,20 @@ void deck::Shuffle()
 	}
 }
 
-int deck::PrintCard(int cardValue)
+void deck::SetFirstN(int* c, int number)
+{
+	for (int ii = 0; ii < number; ii++)
+	{
+		cards[ii] = c[ii];
+	}
+}
+
+int deck::PrintCard(int cardValue, bool debug)
 {
 	suits s = (suits)(cardValue / 13);
 	ranks rank = (ranks)(cardValue % 13);
 
-	std::cout << suitNames[s] << "-" << rankNames[rank] << '-';
+	if (debug) std::cout << suitNames[s] << "-" << rankNames[rank] << '-';
 
 	return GetRankValue(rank);
 }

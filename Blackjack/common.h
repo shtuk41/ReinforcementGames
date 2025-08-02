@@ -28,7 +28,7 @@ struct StateKeyHash {
 	}
 };
 
-enum actopm
+enum action
 {
 	stick = 0,
 	twist = 1

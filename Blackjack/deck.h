@@ -13,6 +13,7 @@ public:
 	deck();
 
 	void Shuffle();
-	int PrintCard(int cardValue);
+	void SetFirstN(int* c, int number);
+	int PrintCard(int cardValue, bool debug);
 	int GetNextCard();
 };
